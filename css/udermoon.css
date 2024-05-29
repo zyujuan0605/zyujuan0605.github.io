@@ -1,0 +1,8 @@
+/*到網頁檢視複製 背景顏色套用必須使用!important才會出現*/
+.bg-body-tertiary{
+   background-color: rgba(239, 71, 132, 1)!important
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {color: floralwhite }
+  .navbar-brand img{
+    width: 100px;
+  }
