@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我要全都要</title>
+    <style>
+        /* 讓內容撐滿整個螢幕高度 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #ffffff; /* 設定背景為黑色，更有質感 */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center; /* 水平置中 */
+            align-items: center;     /* 垂直置中 */
+            height: 100vh;           /* 佔滿視窗高度 */
+            padding: 20px;           /* 留一點邊距，避免貼邊 */
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;         /* 寬度最大就是手機寬度 */
+            max-height: 100%;        /* 高度最大就是手機高度 */
+            object-fit: contain;     /* 關鍵：保持比例完整顯示 */
+            box-shadow: 0 0 20px rgba(255,255,255,0.2); /* 幫圖片加點淡淡的發光 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="我要 我全都要.jpg" alt="Design Awards">
+    </div>
+
+</body>
+</html>
